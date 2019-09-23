@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link href="quiz.css" type="text/css" rel="stylesheet">
+       
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+            <div class="container-fluid">
+            <a href="" class="navbar-brand">QUIZ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarquiz">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarquiz">
+                <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Category</a>
+                        </li>
+                        
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <form class="container-fluid my-container" name= "quiz">
+            <div class="row" id="rows">
+                <div class=" col-lg-3 col-xl-3" id="sidebar">
+                    <h3 class="sidehead">Categories</h3>
+                    <div class="side">
+                        <a href="#" class="nav-link">History</a> <br>
+                        <a href="#" class="nav-link">Polity</a>    <br>
+                        <a href="#" class="nav-link">Science</a>  <br>
+                        <a href="#" class="nav-link">Biology</a>  <br>
+                        <a href="#" class="nav-link">Maths</a>  <br>
+                        <a href="#" class="nav-link">Rivers and Dams</a>  <br>
+                        <a href="#" class="nav-link">National Parks</a>  <br>
+                        <a href="#" class="nav-link">Economy</a>  <br>
+                        <a href="#" class="nav-link">Capital and Currency</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-9 col-xl-9" id="calls">
+                    <h2 class="heading">Quiz</h2>
+                    <div id="ques2">
+                        <p>Which language is called as Italian of the East?</p> 
+                        <input type="radio" name="q2" id="box2" value="Tamil">Tamil 
+                        <input type="radio" name="q2" id="box2" value="Telugu">Telugu <br> </br>
+                    </div>
+                    <div>
+                        <p>What is the largest state in india?</p> 
+                        <input type="radio" name="q3" value="UtterPradesh">UtterPradesh
+                        <input type="radio" name="q3" value="Rajasthan">Rajasthan <br> </br>
+                    </div>
+                    <div>
+                        <p>What is the largest state in india?</p> 
+                        <input type="radio" name="q4" value="UtterPradesh">UtterPradesh
+                        <input type="radio" name="q4" value="Rajasthan">Rajasthan <br> </br>
+                    </div>
+                    <div>
+                        <p>What is the largest state in india?</p> 
+                        <input type="radio" name="q5" value="UtterPradesh">UtterPradesh
+                        <input type="radio" name="q5" value="Rajasthan">Rajasthan <br> </br>
+                    </div>
+                    <div>
+                        <p>What is the largest state in india?</p> 
+                        <input type="radio" name="q6" value="UtterPradesh">UtterPradesh
+                        <input type="radio" name="q6" value="Rajasthan">Rajasthan <br> </br>
+                        </div>
+                    <div>
+                        <a type="button" id="check" class="btn btn-primary"  href="#"> Submit </a>
+                    </div>
+                </div>
+            </div>        
+        </form>        
+        
+        <div class="popup">
+            <div class="content">
+                <span id="close">+</span>
+                <p id="happy">&#128558</p>
+                <p id="average">&#128578</p>
+                <p id="sad">&#128577</p>
+                <p id="million"></p>
+            </div>
+        </div>   
+        
+    </body>
+
+
+    <script src="quiz.js"></script>
+
+
+
+</html>
